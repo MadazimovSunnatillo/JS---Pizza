@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza</title>
+    <link rel="stylesheet" href="./css/main/style.css" />
+  </head>
+  <body>
+   <div class="fixed">
+    <div class="pizza">
+      <div class="container">
+        <div class="pizza-images">
+          <img class="pizza-img bread  " src="./images/bread.png" alt="bread" />
+          <img
+            class="pizza-img salami hide"
+            src="./images/kolbasa.svg"
+            alt="bread"
+          />
+          <img
+            class="pizza-img tomato hide"
+            src="./images/pomidor.svg"
+            alt="bread"
+          />
+          <img
+            class="pizza-img quziqorin hide"
+            src="./images/quziqorin.svg"
+            alt="bread"
+          />
+          <img class="pizza-img kolb hide" src="./images/salami.svg" alt="bread" />
+          <img class="pizza-img oil hide" src="./images/zaytun.svg" alt="bread" />
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="container">
+        <div class="pizza-form">
+          <h1 class="title">
+            Choose your favorite pizza
+            <br />
+            🍕🍕🍕
+          </h1>
+          <div class="text">
+            <h2 class="pizza-item">
+              Bread: 4$
+            </h2>
+          </div>
+          <div class="text">
+            <h2 class="pizza-item">
+              Salami: 3$
+            </h2>
+            <div class="pizza-btn">
+              <button class="pizza-btn__add salami-btn">Add</button>
+            </div>
+          </div>
+          <div class="text">
+            <h2 class="pizza-item">
+              Tomato: 2$
+            </h2>
+            <div class="pizza-btn">
+              <button class="pizza-btn__add tomato-btn">Add</button>
+            </div>
+          </div>
+          <div class="text">
+            <h2 class="pizza-item">
+              Mushroom: 2$
+            </h2>
+            <div class="pizza-btn">
+              <button class="pizza-btn__add mushroom-btn">Add</button>
+            </div>
+          </div>
+          <div class="text">
+            <h2 class="pizza-item">
+              Sausage: 4$
+            </h2>
+            <div class="pizza-btn">
+              <button class="pizza-btn__add sausage-btn">Add</button>
+            </div>
+          </div>
+          <div class="text">
+            <h2 class="pizza-item">
+              Zaytun: 1$
+            </h2>
+            <div class="pizza-btn">
+              <button class="pizza-btn__add zaytun-btn">Add</button>
+            </div>
+          </div>
+          <div id="order"></div>
+          <div class="pizza-total">
+            <h1 class="total">4$</h1>
+            <button class="orderBtn">To Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
